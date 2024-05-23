@@ -1,0 +1,33 @@
+.djk{
+  color:  #854dff;
+  color:#ff5757;
+  color:#f0f0f0;
+  color:#dbdbdb;
+  color:#716f6f;
+  color:#141414;
+}
+*{
+    margin:0px;
+    padding:0px;
+}
+input{
+    border: 1px solid #dbdbdb ;
+    
+    padding: 10px 0px 8px 0px;
+}
+#page{
+    overflow-x: hidden;
+}
+#inputs{
+   
+    justify-content: between;
+    column-gap: 20px;
+    
+}
+label{
+    font-size:10px;
+    font-weight: bold;
+}
+.error{
+   border: 1px solid #f83838; 
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator| FNP</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+     <link rel="shortcut icon" href="/assets/images/favicon-32x32.png" type="image/x-icon">
+     <link rel="stylesheet" href="index.css">
+</head>
+<body class="bg-[#f0f0f0] h-[100vh] mt-[25px] flex flex-col justify-center items-center">
+  <p class="text-2xl text-2xl bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">Fnp</p>
+   <div class="bg-white flex flex-col p-4  w-[300px] sm:w-[300px] rounded-br-[120px] rounded-lg" id="page">
+      <div id="inputs" class="p-5">
+        <div class="flex flex-col">
+            <label for="day" class="text-[#dbdbdb]">DAY</label>
+            <input type="number" value="" placeholder="" id="date"/>
+            <p class="text-red-200 text-xs" id="errorDate"></p>
+        </div>
+        <div class="flex flex-col">
+            <label for="day" class="text-[#dbdbdb]">Month</label>
+            <input type="number" value="" placeholder="" id="Month"/>
+            <p class="text-red-200 text-xs" id="MonthError"></p>
+        </div>
+        <div class="flex flex-col">
+            <label for="year" class="text-[#dbdbdb]">Years</label>
+            <input type="number" value="" placeholder="" id="Year" />
+            <p id="yearError" class="text-red-200 text-xs"></p>
+        </div>
+      </div>
+      <div class="flex items-center mt-1 p-4">
+        <hr class="flex-1">
+        <button>
+          <img src="/assets/images/icon-arrow.svg" alt="" class="bg-[#854dff] rounded-full w-[50px] p-3">
+        </button>
+      </div>
+      <div class="p-4 text-4xl font-bold">
+        <div class="text-black flex"><span class="text-[#854dff]" id="NumberoFYears">_ _</span> <p class="mt-3">Years</p></div>
+        <div class="text-black flex"><span class="text-[#854dff]" id="NumberOfMonth">_ _</span><p class="mt-3">Months</p></div>
+        <div class="text-black flex"><span class="text-[#854dff]" id="NumberofDays">_ _</span><p class="mt-3">Days</p> </div>
+      </div>
+   </div> 
+   <script src="index.js"></script>
+</body>
+</html>
